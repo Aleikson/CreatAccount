@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylelogin.css">
+    <title>Login</title>
+</head>
+
+<body>
+
+    <section>
+
+        <div class="background">
+
+            <form class="form" method="POST" action="">
+
+                <h2>Sign in to your account</h2>
+
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter email">
+                    <p id="email-error"></p>
+                </div>
+                <div>
+                    <label for="psw">Password</label>
+                    <input type="password" name="password" id="password" placeholder="Enter Password">
+                </div>
+                <div>
+                    <label for="password_confirmation">Confirm Password</label>
+                    <input type="password" name="password_confirmation" id="password_confirmation"
+                        placeholder="Confirm Password">
+                    <p id="password-error"></p>
+                </div>
+                <p><button type="submit">Continue</button></p>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <script src="./script.js"></script>
+
+
+</body>
+
+</html>
